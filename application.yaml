@@ -1,4 +1,0 @@
-spring:
-  global:
-    a1: config1
-    a2: config2

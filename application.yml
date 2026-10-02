@@ -1,0 +1,10 @@
+spring:
+  global:
+    a1: config1
+    a2: config2
+
+eureka:
+  client:
+    enabled: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
