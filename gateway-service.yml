@@ -9,7 +9,7 @@ cloud:
 
 eureka:
   client:
-      enabled: false
+      fetch-register: false
   service-url:
     defaultZone: http://localhost:8761/eureka/
 server:
